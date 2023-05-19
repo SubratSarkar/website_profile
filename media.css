@@ -1,0 +1,33 @@
+@media only screen and (max-width: 991px) {
+    .sidebar img {
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sidebar {
+        display: none;
+    }
+
+    body {
+        margin-left: unset;
+    }
+
+    .container {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .table {
+        padding: 10px;
+        flex-direction: column;
+        /* text-align: center; */
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .table {
+        padding: 10px;
+        flex-direction: column!important;
+    }
+}
